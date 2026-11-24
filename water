@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2026 Yuuki Fujisawa
 def calc_price_per_ml():
     print("=== 1mLあたりの値段 計算ツール ===")
 
