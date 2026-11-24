@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def calc_price_per_ml():
     print("=== 1mLあたりの値段 計算ツール ===")
 
