@@ -11,9 +11,9 @@
 リポジトリをクローンし、`water` コマンドに実行権限を付与します。
 
 ```bash
-git clone https://github.com/Yuuki-Fujisawa/water.git
-cd robosys_kadai1
-chmod +x water
+$git clone https://github.com/Yuuki-Fujisawa/water.git
+$cd robosys_kadai1
+$chmod +x water
 ```
 
 ## 使い方
@@ -21,7 +21,7 @@ chmod +x water
 `./water` とだけ打ってEnter を押し、1行につき「容量(mL) 本数 値段(円)」を半角スペース区切りで入力して Enter を押します。入力が終わったら、新しい行で Ctrl キーを押しながら D を押します。
 
 ```bash
-./water
+$./water
 500 6 600
 ```
 （入力後に Ctrl + D を押すと、100mLあたりの値段が出力されます）
@@ -31,27 +31,12 @@ chmod +x water
 ```text
 20.00
 ```
-複数行まとめて入力することもできます。
 
-```bash
-./water
-500 6 600
-2000 6 1200
-```
-
-（Ctrl + D を押すと、各行の計算結果が順番に出力されます）
-
-### 出力例
-
-```text
-20.00
-10.00
-```
 ## パイプやリダイレクトで渡す場合
 
 パイプ（|）を使って標準入力からデータを渡すこともできます。
 ```bash
-echo "500 6 600" | ./water
+$echo "500 6 600" | ./water
 ```
 
 ### 出力例
